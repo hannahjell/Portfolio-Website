@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  #background-color: rgb(195, 250, 255);
+}
+
+#hannahPhoto {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-image: linear-gradient(150deg, hotpink, pink, lightpink, hotpink);
+  color: whitesmoke
+}
+
+ul.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 30px;
+  /*width: 100%; */
+}
+
+ul.navBar li a {
+  padding: 7px 8px;
+  color: whitesmoke;
+  font-family: Verdana;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar li {
+  display: inline-block;
+}
+
+ul.navBar li a:hover {
+  background-color: hotpink;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+
+  /*
+  background-image: linear-gradient(to right, red , yellow);
+  background: -webkit-linear-gradient(to right, hotpink, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  */
+
+}
